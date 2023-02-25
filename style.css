@@ -96,14 +96,15 @@ ul li.active a{
     background-color:rgb(141, 63, 0);
     color:#fff;
 }
+
+
 .logo img{
     float: left;
-    width: 144px;
+        width: 114px;
+        height: 101px;
+        margin-top: -16px;
+        margin-left: -43px;
 }
-.main{
-    max-width: 12000px;
-    margin: auto;
-}    
 
 
 
@@ -206,3 +207,76 @@ ul li.active a{
 
 
 
+ @media screen and (max-width: 600px)
+ { 
+    .logo{
+        float: left;
+        width: 243px;
+        height: 66px;
+        margin-top: -1px;
+        margin-left: 0px;
+    }
+        
+    
+
+   
+    
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: -85px;
+        min-height: 279px;
+        margin-right: 4px;
+        font-size: 7px;
+    }
+
+    
+body{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),  url(601474.jpg);
+    background-color: rgb(141, 63, 0);
+   background-repeat: no-repeat ;
+   background-size:cover;
+    height: 36vh;
+    min-width: 100px;
+}
+
+.box{
+    width: 186px;
+    padding: 11px;
+    position: absolute;
+    top: 291px;
+    left: 294px;
+    transform: translate(-50%,-50%);
+    background: rgb(141, 63, 0);
+    text-align: center;
+}
+    
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+
+ }
+ .content h1{
+    font-family: 'Times New Roman';
+    font-size: 23px;
+    padding-right: 760px;
+    letter-spacing: 15px;
+ }
+ .content span{
+    color: black;
+    font-size: 60px;
+ }
+ .flybird{
+    position: relative;
+    width:23%;
+    right: 74%;
+    margin-top: -283px;
+    animation:fly 5s infinite ;
+ }
+ 
+ }
+   
